@@ -1,11 +1,136 @@
 * {
     box-sizing: border-box;
+    font-family: "Roboto";
 }
 
-img {
-    width: 200px;
+.max-width-and-centered {
+    max-width: 1050px;
+    margin: 0 auto;
 }
 
 .information {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.information-division p {
+    max-width: 200px;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+.hero-section {
+    background-color: #1F2937;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero div h1{
+    color: #F9FAF8;
+}
+
+.hero div h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-left-side {
+    max-width: 500px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.placeholder-hero-image {
+    background-color: #6D747E;
+    width: 400px;
+    height: 200px;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+}
+
+header a,
+header div a,
+.hero div p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.placeholder-information-image {
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+    width: 175px;
+    height: 175px;
+    flex: none;
+}
+
+.information-section div h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote-section div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quote-section .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.action {
+    padding: 20px;
+    background-color: #3882F6;
+    display: flex;
+    margin: 30px auto;
+    justify-content: center;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.action-title {
+    color: #E5E7EB;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.action button {
+    width: 120px;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 6px;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
 }

@@ -8,7 +8,7 @@ body {
 }
 
 .max-width-and-centered {
-    max-width: 1050px;
+    max-width: 1038px;
     margin: 0 auto;
 }
 
@@ -20,7 +20,9 @@ body {
 }
 
 .information-division p {
-    max-width: 200px;
+    max-width: 160px;
+    text-align: center;
+    margin: 4px 0;
 }
 
 header {
@@ -29,19 +31,19 @@ header {
 
 .hero-section {
     background-color: #1F2937;
+    padding: 102px 0 127px;
 }
 
 .hero {
     display: flex;
+    justify-content: space-between;
 }
 
 .hero div h1{
     color: #F9FAF8;
-}
-
-.hero div h1 {
     font-size: 48px;
     font-weight: 900;
+    margin: 0px;
 }
 
 .hero-left-side {
@@ -51,12 +53,19 @@ header {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 800;
+    width: 130px;
+    height: 38px;
+    margin: 16px 0;
+    border-radius: 10px;
+    border: none;
 }
 
 .placeholder-hero-image {
     background-color: #6D747E;
-    width: 400px;
-    height: 200px;
+    width: 530px;
+    height: 238px;
     color: #E5E7EB;
     display: flex;
     align-items: center;
@@ -83,38 +92,46 @@ header div div a,
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    text-align: center;
+    margin: 50px 0;
 }
 
 .quote-section {
     background-color: #E5E7EB;
+    padding: 132px 0 156px;
 }
 
 .quote-section div {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .quote-section .quote {
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+    max-width: 800px;
+    font-style: italic;
 }
 
 header div {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 22px 0;
 }
 
 .action {
     padding: 20px;
     background-color: #3882F6;
     display: flex;
-    margin: 30px auto;
+    margin: 100px auto;
     justify-content: center;
     border-radius: 8px;
     align-items: center;
+    justify-content: space-around;
+    padding: 40px 0;
 }
 
 .action-title {
@@ -137,15 +154,44 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 32px;
+    padding: 40px;
 }
 
 .header-links a {
-    margin: 24px;
     font-weight: 400;
+}
+
+.header-links {
+    display: flex;
+    gap: 28px;
 }
 
 header div a {
     font-weight: 800;
     font-size: 24px;
+}
+
+.hero div p {
+    margin: 0;
+    max-width: 460px;
+}
+
+.information-section {
+    padding: 0 0 120px;
+}
+
+.quote-section-texts .quotee {
+    margin: 0 0 0 59%;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.quote-section-texts {
+    max-width: 790px;
+    margin: 0 auto;
+}
+
+.action-text {
+    color: #E5E7EB;
+
 }

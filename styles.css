@@ -3,6 +3,10 @@
     font-family: "Roboto";
 }
 
+body {
+    margin: 0;
+}
+
 .max-width-and-centered {
     max-width: 1050px;
     margin: 0 auto;
@@ -60,8 +64,8 @@ button {
     flex: none;
 }
 
-header a,
 header div a,
+header div div a,
 .hero div p {
     color: #E5E7EB;
     font-size: 18px;
@@ -100,6 +104,7 @@ header div a,
 header div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .action {
@@ -133,4 +138,14 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 32px;
+}
+
+.header-links a {
+    margin: 24px;
+    font-weight: 400;
+}
+
+header div a {
+    font-weight: 800;
+    font-size: 24px;
 }

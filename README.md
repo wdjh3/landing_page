@@ -1,1 +1,1 @@
-This is a landing page, primarily done to refine my understanding of Web Development and the challenges that come along with it.
+This is a landing page as a project from The Odin Project, primarily done to refine my understanding of Web Development and the challenges that come along with it.
